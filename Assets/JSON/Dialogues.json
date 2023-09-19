@@ -1,0 +1,9 @@
+{
+  "version": 0.1,
+  "language": "French",
+
+  "Quest1": {
+    "1": "Bonjour, ça roule ma poule ?",
+    "2": "Bah ouais, un max !"
+  }
+}
