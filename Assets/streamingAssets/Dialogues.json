@@ -1,0 +1,55 @@
+{
+  "version": "0.1",
+  "language": "Français",
+  "quests": [
+    {
+      "name": "quest0",
+      "characterDialogues": [
+        {
+          "name": "Hubert",
+          "dialogues": [
+            {
+              "name": "Hubert l'Historien",
+              "dialogue": "J’ai vraiment eu peur, une chance que ce bloc de glace n’ai tué personne ! Est-ce que le ciel va nous tomber sur la tête ?"
+            },
+            {
+              "name": "Le Maire",
+              "dialogue": "J’espère que non, mais nous manquons d’informations pour pouvoir l’affirmer. Je vais aller interroger quelques personnes."
+            }
+          ]
+        },
+        {
+          "name": "Archibald",
+          "dialogues": [
+            {
+              "name": "Le Maire",
+              "dialogue": "Salut Archibald, tu as vu ce qui vient de se passer ?"
+            },
+            {
+              "name": "Archibald l'Astronome",
+              "dialogue": "Bonjour M. Le Maire. Oui j’ai observé ça dans ma loupe (télescope). Depuis tout petit, j’observe le dôme pour mieux le comprendre, mais c’est la première fois que j’observe ce phénomène. J’ai cependant remarqué que je vois de mieux en mieux à travers le dôme, comme si celui-ci était de plus en plus fin. Je ne sais pas de quoi cela vient mais c’est inquiétant… J’ai transmis mes observations à Simon."
+            },
+            {
+              "name": "Le Maire",
+              "dialogue": "Merci Archi, je continue mes recherches"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "quest1",
+      "characterDialogues": [
+        {
+          "name": "Test",
+          "dialogues": [
+            {
+              "name": "CA MARCHE",
+              "dialogue": "BORDEL CA MARCHE !"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

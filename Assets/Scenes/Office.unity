@@ -180,6 +180,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c3fd135b76268c499cd8ee83159b857, type: 3}
+--- !u!1 &21933283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2822930972138593286, guid: 0c3fd135b76268c499cd8ee83159b857, type: 3}
+  m_PrefabInstance: {fileID: 21933282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &21933284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21933283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18b0e9d78f86d84997248c94b2d9ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Hubert
+  dialogueManager: {fileID: 335897408}
+  gameManager: {fileID: 1406884232}
+  dialogueReader: {fileID: 335897410}
 --- !u!1 &50188664
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +457,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171744422}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &232442705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2822930972138593286, guid: 0c3fd135b76268c499cd8ee83159b857, type: 3}
+  m_PrefabInstance: {fileID: 352077375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &232442710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232442705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18b0e9d78f86d84997248c94b2d9ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Archibald
+  dialogueManager: {fileID: 335897408}
+  gameManager: {fileID: 1406884232}
+  dialogueReader: {fileID: 335897410}
 --- !u!1 &335897407
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 335897409}
   - component: {fileID: 335897408}
+  - component: {fileID: 335897410}
   m_Layer: 0
   m_Name: DialoguesManager
   m_TagString: Untagged
@@ -484,6 +527,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335897410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335897407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccc83285e862374d93694ea37d5441d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonFile: {fileID: 4900000, guid: 1e188de5c9716fe42bb920d27dd2e47c, type: 3}
 --- !u!1001 &352077375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1994,6 +2050,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328587446}
   m_CullTransparentMesh: 1
+--- !u!1 &1406884231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406884233}
+  - component: {fileID: 1406884232}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1406884232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406884231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b785ecfcbc482aa4691d966c7556c3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 335897408}
+--- !u!4 &1406884233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406884231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.742824, y: 1.3061106, z: 1.2449883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1427884846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,15 +2575,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18b0e9d78f86d84997248c94b2d9ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: "Laurent St\xE9phane DIDIER"
-    sentences:
-    - "Salut, je suis Laurent St\xE9phane Didier."
-    - "Avez-vous remarqu\xE9 que mes initiales sont ....."
-    - LSD ?
-    - Ptdr
-    - PAR COPIIIIE !!!
-    - "Merci et \xE0 la prochaine"
+  characterName: 
+  dialogueManager: {fileID: 0}
+  gameManager: {fileID: 0}
+  dialogueReader: {fileID: 0}
 --- !u!114 &1645805733
 MonoBehaviour:
   m_ObjectHideFlags: 0
