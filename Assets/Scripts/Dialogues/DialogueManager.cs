@@ -45,6 +45,8 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        Debug.Log("Yolo");
+
         // Termine le dialogue s'il est arrivé au bout
         if (sentences.Count == 0 && !displayingText)
         {
