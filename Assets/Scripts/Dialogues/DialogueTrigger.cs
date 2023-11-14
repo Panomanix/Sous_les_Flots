@@ -6,23 +6,27 @@ public class DialogueTrigger : MonoBehaviour
 {
 
     public string characterName;
-    public DialogueManager dialogueManager;
     public GameManager gameManager;
+    public DialogueManager dialogueManager;
     public DialogueReader dialogueReader;
 
     // Lance le dialogue lorsqu'on clique sur le personnage
     private void OnMouseDown()
     {
-        if (dialogueManager != null)
+        if (gameManager == null || dialogueManager == null || dialogueReader == null)
         {
-            StartDialogue();
+            Debug.Log("Vous n'avez pas renseignés un ou plusieurs managers");
+            return;
         }
+        
+        StartDialogue();
+
     }
 
     // Commencer un dialogue
     public void StartDialogue()
     {
-        int currentQuest = gameManager.GetCurrentQuest();
+        int currentQuest = gameManager.GetCurrentQuest() + 1;
         List<DialogueEntry> dialogue = dialogueReader.GetDialogue("quest" + currentQuest, characterName);
         if (dialogue != null)
         {

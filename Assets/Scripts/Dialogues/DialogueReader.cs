@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.Text;
 
 //La composition du dialogue d'un personnage
 [System.Serializable]
@@ -60,7 +61,7 @@ public class DialogueReader : MonoBehaviour
         }
 
         // Affiche la structure de données après la désérialisation
-        Debug.Log("Structure Json = " + JsonUtility.ToJson(dialoguesData));
+        Debug.Log(JsonUtility.ToJson(dialoguesData));
     }
 
     public List<DialogueEntry> GetDialogue(string questName, string characterName)

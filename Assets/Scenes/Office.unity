@@ -197,9 +197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18b0e9d78f86d84997248c94b2d9ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: Hubert
-  dialogueManager: {fileID: 335897408}
+  characterName: Felix
   gameManager: {fileID: 1406884232}
+  dialogueManager: {fileID: 335897408}
   dialogueReader: {fileID: 335897410}
 --- !u!1 &50188664
 GameObject:
@@ -475,8 +475,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Archibald
-  dialogueManager: {fileID: 335897408}
   gameManager: {fileID: 1406884232}
+  dialogueManager: {fileID: 335897408}
   dialogueReader: {fileID: 335897410}
 --- !u!1 &335897407
 GameObject:
@@ -2576,8 +2576,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueManager: {fileID: 0}
   gameManager: {fileID: 0}
+  dialogueManager: {fileID: 0}
   dialogueReader: {fileID: 0}
 --- !u!114 &1645805733
 MonoBehaviour:

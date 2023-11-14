@@ -1,9 +1,9 @@
-{
+ï»¿{
   "version" : "0.1",
-  "language": "Français",
+  "language": "FranÃ§ais",
   "quests": [
     {
-      "name": "quest0",
+      "name": "quest1",
       "characterDialogues": [
         {
 
@@ -11,11 +11,11 @@
           "dialogues": [
             {
               "Name": "Hubert l'Historien",
-              "Dialogue": "J’ai vraiment eu peur, une chance que ce bloc de glace n’ai tué personne ! Est-ce que le ciel va nous tomber sur la tête ?"
+              "Dialogue": "Jâ€™ai vraiment eu peur, une chance que ce bloc de glace nâ€™ai tuÃ© personne ! Est-ce que le ciel va nous tomber sur la tÃªte ?"
             },
             {
               "Name": "Le Maire",
-              "Dialogue": "J’espère que non, mais nous manquons d’informations pour pouvoir l’affirmer. Je vais aller interroger quelques personnes."
+              "Dialogue": "Jâ€™espÃ¨re que non, mais nous manquons dâ€™informations pour pouvoir lâ€™affirmer. Je vais aller interroger quelques personnes."
             }
           ]
         },
@@ -28,27 +28,47 @@
             },
             {
               "Name": "Archibald l'Astronome",
-              "Dialogue": "Bonjour M. Le Maire. Oui j’ai observé ça dans ma loupe (télescope). Depuis tout petit, j’observe le dôme pour mieux le comprendre, mais c’est la première fois que j’observe ce phénomène. J’ai cependant remarqué que je vois de mieux en mieux à travers le dôme, comme si celui-ci était de plus en plus fin. Je ne sais pas de quoi cela vient mais c’est inquiétant… J’ai transmis mes observations à Simon."
+              "Dialogue": "Bonjour M. Le Maire. Oui jâ€™ai observÃ© Ã§a dans ma loupe (tÃ©lescope). Depuis tout petit, jâ€™observe le dÃ´me pour mieux le comprendre, mais câ€™est la premiÃ¨re fois que jâ€™observe ce phÃ©nomÃ¨ne. Jâ€™ai cependant remarquÃ© que je vois de mieux en mieux Ã  travers le dÃ´me, comme si celui-ci Ã©tait de plus en plus fin. Je ne sais pas de quoi cela vient mais câ€™est inquiÃ©tantâ€¦ Jâ€™ai transmis mes observations Ã  Simon."
             },
             {
               "Name": "Le Maire",
               "Dialogue": "Merci Archi, je continue mes recherches"
             }
           ]
-
+        },
+        {
+          "name": "Felix",
+          "dialogues": [
+            {
+              "Name": "FÃ©lix le Forgeron",
+              "Dialogue": "Ah tiens, bonjour M. Le Maire ! Quâ€™est-ce que câ€™Ã©tait que ce bruit assourdissant ?"
+            },
+            {
+              "Name": "Le Maire",
+              "Dialogue": "Un bloc de glace vient de tomber du dÃ´me. Heureusement, il nâ€™y a aucun blessÃ©. Mais câ€™est trÃ¨s prÃ©occupant et je cherche des rÃ©ponses"
+            },
+            {
+              "Name": "FÃ©lix le Forgeron",
+              "Dialogue": "Câ€™est sÃ»rement l'Ã©vÃ©nement annonciateur de la prophÃ©tie ! Selon cette prophÃ©tie, PosÃ©idon, dieu de la mer, dÃ©chaÃ®ne sa fureur et engloutit notre belle citÃ© sous les eaux glacÃ©es. NOUS ALLONS TOUS MOURIR !"
+            },
+            {
+              "Name": "Le Maire",
+              "Dialogue": "Reste calme FÃ©lix, personne ne va mourir. Le dÃ´me nous a toujours protÃ©gÃ©s et nous allons tout faire pour trouver une solution Ã  ce problÃ¨me."
+            }
+          ]
         }
       ]
     },
 
     {
-      "name": "quest1",
+      "name": "quest2",
       "characterDialogues": [
         {
           "name" :  "Test",
           "Dialogues": [
             {
               "Name": "Je travail",
-              "Dialogue": "Je travail un max même !"
+              "Dialogue": "Je travail un max mÃªme !"
             }
           ]
         }
